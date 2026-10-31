@@ -1,4 +1,5 @@
 name: uptime
+# The schedule is registered when this file changes on the default branch.
 on:
   schedule:
     - cron: "*/10 * * * *"
